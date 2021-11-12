@@ -62,6 +62,7 @@ def main(user, passwd, step):
     user = str(user)
     password = str(passwd)
     step = str(step)
+    print (password)
     if user == '' or password == '':
         print ("用户名或密码不能为空！")
         return "user and passwd not empty！"
